@@ -48,7 +48,7 @@ jobs:
         run: ./sync-from-source/sync.sh
 
       - name: Open PR
-        uses: peter-evans/create-pull-request@6d6857d36972b65feb161a90e484f2984215f83e # v6.0.5
+        uses: peter-evans/create-pull-request@67ccf781d68cd99b580ae25a5c18a1cc84ffff1f # v7.0.6
         with:
           title: Update push-gha-metrics-action
           branch: chore/update-push-gha-metrics-action
